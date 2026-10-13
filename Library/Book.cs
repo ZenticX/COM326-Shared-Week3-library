@@ -58,7 +58,7 @@ namespace Library
             get { return _isbn; }
             set
             {
-                if (!value.Any(char.IsDigit) && value != "")
+                if (value.Any(char.IsDigit) && value != "")
                 {
                     _isbn = value;
                 }
