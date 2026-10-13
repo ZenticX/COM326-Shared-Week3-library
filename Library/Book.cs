@@ -15,12 +15,7 @@ namespace Library
         private string _isbn;
 
         // Constructor
-        public Book(string title, string author, string isbn)
-        {
-            _title = title;
-            _author = author;
-            _isbn = isbn;
-        }
+       
 
         // Public Properties
         public string Title
@@ -75,7 +70,7 @@ namespace Library
         }
 
         // Constructor
-        public Book (string booktitle, string bookauthor, string bookisbn)
+        public Book(string booktitle, string bookauthor, string bookisbn)
         {
             this.Title = booktitle;
             this.Author = bookauthor;
